@@ -157,5 +157,60 @@ as in next.js what ever we are making of the folder name that is consider as the
 in react if we need to use multiple of the components/ function then we can use fragment
 
 ➜ <>  </>   ---> this is called as the fragement
- ➜ <fragment></fragment>
+ ➜ <fragment></fragment> Both of them are of the same things. As we can use any of this things. 
+
+ LIFE CYCLE OF THE COMPONENTS 
+ 1. Mounting 
+    When our components get loaded
+ 2. Updating 
+    When the components inside a component is updated
+ 3. Unmounting phase 
+    Our components get switched
+
+ summery for the lifecycle of the components 
+ when we open the websites first it will mounting as that time it gives the skeleton of the websites.
+ This time it will load the application of the websites (pages) and then it will call the API (network call) and fetch the data to load for that component to be updated or it is mouted (for the very first early phase of the application of randering) and when ever we press any link then it will rander another pages, this time the mounting pahase is completed and it will go for the updating  after unmounting. At the time of the unmounting the components will be get switched.
+ 
+What is strict mode in React application?
+--> As in the lifecycle of the components while mounting, updating and unmounting of it there is changes of the data inside of the components and due to this some time there will be infinite renders will be occour, so to overcome this issue react have got one of the external componets that will check / stricts such types of infinite reanders.This is the componets that we implement within the components.
+
+createRoot(documents.getElementsById("root)!).render
+(
+  <StrictMode>
+    <LoginPage/>
+  </StrictMode>  
+);
+what it will check 
+1. Bugs related to reacts 
+2. Hooks issues
+3. Issues
+Find bugs
+As when the components that are being changed then first it will compile and then it will take the snapshot internally and it will render to the browser and after rendering it will take another snapshot and both the compile snapshot and after render snapshot will be compared and if there is any changes on the state componets then react will sync all of them and give the final componetnts that is called as the reconsillation in the react application.
+Production pahase that strict mode will be not sent as on the development phase it will works
+
+
+if the virtual dom is not updated as this time the real dom and virtual dom is compared and update all of them based on the state, then this shorts is also called as the reconssilation in the react.
+
+
+There are two types of the components
+1. Functional Based components
+2. Class Based components
+
+The react that will store data in the two form 
+1. Data that are internally stored in the components or the application of the react, that are called as the state. The data that are used to rendered in the application are called as the state
+
+So before the react version 16.8, there were no capability of the functional components to maintain the state, so that time we were using the class based components.As that time only class based componets are stored the state by that time.
+so such types of the components that are stored in the class based componets are called as the stateful components.
+And the functional componets are called as the statless components. Till before the version of 16.8 version of react 
+By 16.8 version of react there is release of the webhooks. Among this there is a hook called as the state hook called as statehook, that is only used in the functional components.
+
+so the react version after the 16.8 version we are using of the react webhook called as the statehooks as only compatable for the functional components, due to this reason we are not able use class based components.
+2. Data that are given / inputed to the components are called as the props
+
+
+To learn lifecycle of the componetnts, class based coponents are easier,
+
+
+
+
 
