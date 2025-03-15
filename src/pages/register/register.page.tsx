@@ -1,4 +1,4 @@
-import "../../assets/css/main.css";
+// import "../../assets/css/main.css";
 import React, { useState } from 'react';
 import { DownloadOutlined } from '@ant-design/icons';
 import {PythonOutlined} from '@ant-design/icons'
@@ -13,8 +13,12 @@ const App: React.FC = () => {
   return (
     <>
     <div className=' m-20 p-20'>
-        <Typography>
-        <PythonOutlined className="text-9xl " />
+        <Typography className='text-blue-950!'>
+            <div className="w-full flex justify-between items-center text-black">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur in architecto quos voluptate delectus porro quod officiis facere corrupti natus, harum iure ullam iusto, unde laudantium nobis rem eos magni.
+        <PythonOutlined className="text-9xl text-red-500! " />
+            </div>
+            <Divider></Divider>
         </Typography>
       <Radio.Group value={size} onChange={(e) => setSize(e.target.value)}>
         <Radio.Button value="large">Large</Radio.Button>
