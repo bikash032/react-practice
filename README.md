@@ -233,12 +233,12 @@ There are two types of the components
 
     Before react version 16.8,it is called as the primary components because it work on the basic of the stateful state as that time functional componets were not able to use to store the states. But later after 18.6 version functionla components also stores data on the basic of the state full components. As later fuctional componetnts also able to maintan the state on the basic of the hooks. So, it is widely used this as the main components as we cannot use mostly class components for the recent react application.
 
-WHAT IS HOOKS?
+# WHAT IS HOOKS?
 ==>As same like in the express there is function called as the middleware which stores the req, res, next, same in the react hook also work as that function. As every thing is controlled or it comes as hooks to control all of the application from the frontend.
 
 There are certain rules for the hook and that rules we need to follow in order to maintain that hooks or to maintain our hooks
 
-Rules
+# Rules
 
 1. Nameing conventation
    -hooks starts with `use<name>()`
@@ -265,19 +265,19 @@ Rules
 5. Own custom hooks
    As hooks are also called as the function that is used to build the react feature or the functionality as is made by the react which are special following the rules of it.
 
-Major hooks is (very imoportant)
+# Major hooks is (very imoportant)
 as basically we can say that hooks are the creater or also called as the listener.
 
 In react if we need to use that hooks it is called as the webhooks
 
-1. state hooks (creater hooks )
+# 1. state hooks (creater hooks )
    ==> If we need to create the data of the components then that time we can use as the state hooks . Basically state hooks are of the asynchrous hooks
 
-   HOW TO MAKE THE STATE HOOKS?
+  #  HOW TO MAKE THE STATE HOOKS?
 
    1. First we need to make/ prepare array / because state hooks provides two features [ (state vairable name), (function to manipulate that variable) ]
 
-   const [email, setEmail]= useState<string>("bikashbishokarma@gmail.com")
+   # const [email, setEmail]= useState<string>("bikashbishokarma@gmail.com")
 
    as we cannot change the state of the variable by using
    // email="hello@gmail.com"==> This will be the syntex error
@@ -290,10 +290,10 @@ In react if we need to use that hooks it is called as the webhooks
 
       To change the state we need to perform the action as need to change by using of the actin that need to be trigger
 
-2. EFFECT HOOKS what is side effect hooks?
+# 2. EFFECT HOOKS what is side effect hooks?
    --> As basically we use state hook to create the hooks and if there is any shorts of the change is happen then we can use effect hooks to handel or to listen that hooks.
 
-   we can use effect  hooks by important three ways in react [very_very_very_Important_don't_to_forget]
+   we can use effect  hooks by important three ways in react ## [very_very_very_Important_don't_to_forget]
     1. UseEffect((callBack function)=>{
       console.log("This hook is always trigger")
     })  
@@ -304,6 +304,40 @@ In react if we need to use that hooks it is called as the webhooks
 
 as the function that are used inside of the side effect hooks cannot be made for the async function as we used for the setTimeOut function inside of it which cannot be possibe to make for the async function but can be done for it inside of we can pass the async function[iife_function]
 
-    what is props?
+ #   what is props?
 
 ==> The data that we provide for the components is called as the props. As props can be passed from one components to the another components
+
+
+# WHat is mean by props drilling?
+--> As when the parent components are sending props to the another child components then it is called as the props drilling. As the props are send from parent to child but not send from child to parent. It can be handeled by event handeler of the props
+
+
+# what is psedu class in Tailwind css or in the react ?
+=>A pseudo-class is a special CSS rule that applies styles based on an element's state (like hover, focus, or first-child).
+In Tailwind CSS, pseudo-classes are used by adding them before the style class, separated by a colon (:)
+
+# How do we send user any greeting based on the time frame?
+--> If we want to make our websites as the UI attractive then we can add the greeting function to make busy and give impression to our customer. So, based on the time frame we can send our user the greeting message and this can be done by the simple logic 
+
+# first make the logic component with segregation inside any file as eg- inside of the utilities by saying greettinguser.tsx
+# logic must includes the correct timeframe
+
+
+# React form
+imputs are 
+  -type
+    -Text,(maximum of 255 character)
+    - number,
+    - url, 
+    - password, 
+    - email, 
+    - hidden, 
+    - file, 
+    - radio, 
+    - checkbox, 
+    - dateTime, 
+    - range, 
+    - tel, 
+    - reset, 
+    - button
