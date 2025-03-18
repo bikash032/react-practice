@@ -1,3 +1,4 @@
+import GoogleButton from "react-google-button";
 
 type LoginParams ={
     label:any
@@ -39,6 +40,23 @@ export const RightSecton = ({label}:LoginParams) => {
       </div>
       <div className="font-medium text-green-900 italic underline flex justify-end mt-4">
         <a href="#">Forget password?</a>
+      </div>
+      <div className="flex space-x-5 justify-center">
+        <div className="text-sm text-black  flex space-x-1 mt-3">
+          <p>Don't Have Account?</p>
+         <a href="#" className="text-teal-900 text-sm italic underline">  Sign Up Here!!!</a>
+        </div>
+        <hr className="mt-5 text-teal-900 "/>
+        
+        
+
+      </div>
+      <hr className="my-4 text-teal-100 md-"/>
+      <div className=" gap-2">
+      <div>
+        <GoogleButton className=""/>
+      
+      </div>
       </div>
     </div>
   );
