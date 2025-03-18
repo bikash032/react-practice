@@ -16,8 +16,8 @@ const LoginPage = () => {
        <LeftSection/>
 
         {/* Right Section */}
-        <RightSecton label ={'Name'}/>
-        <RightSecton label ={'Full name'}/>
+        <RightSecton label  ={'Username:'}/>
+    
 
           </div>
         </div>
