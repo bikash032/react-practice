@@ -16,7 +16,13 @@ const LoginPage = () => {
        <LeftSection/>
 
         {/* Right Section */}
+<<<<<<< HEAD
         <RightSecton label ={'Username'}/>
+=======
+        <RightSecton label  ={'Username:'}/>
+    
+
+>>>>>>> Merojhola
           </div>
         </div>
       </div>

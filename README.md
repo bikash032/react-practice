@@ -234,7 +234,7 @@ There are two types of the components
     Before react version 16.8,it is called as the primary components because it work on the basic of the stateful state as that time functional componets were not able to use to store the states. But later after 18.6 version functionla components also stores data on the basic of the state full components. As later fuctional componetnts also able to maintan the state on the basic of the hooks. So, it is widely used this as the main components as we cannot use mostly class components for the recent react application.
 
 # WHAT IS HOOKS?
-==>As same like in the express there is function called as the middleware which stores the req, res, next, same in the react hook also work as that function. As every thing is controlled or it comes as hooks to control all of the application from the frontend.
+# f==>As same like in the express there is function called as the middleware which stores the req, res, next, same in the react hook also work as that function. As every thing is controlled or it comes as hooks to control all of the application from the frontend.
 
 There are certain rules for the hook and that rules we need to follow in order to maintain that hooks or to maintain our hooks
 
@@ -361,4 +361,11 @@ imputs are
 # let's handle the form in react
    # 1. Firstly form will be not handled by the action in the react. So, for this we need to handle by it with the event listner. 
 
+<<<<<<< HEAD
    # 2. All the <input> html tag inside of the form that we must pass the <name="username">,<name="password"> as the basic of the data we need to send for the backend through API that must be stored in the backend / as the data that except by the API from form
+=======
+   # 2. All the <input> html tag inside of the form that we must pass the <name="username">,<name="password"> as the basic of the data we need to send for the backend through API that must be stored in the backend / as the data that except by the API from form
+
+    
+
+>>>>>>> Merojhola
