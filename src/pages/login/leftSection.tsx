@@ -3,8 +3,7 @@ import { greetingMessage } from "../../utilities/helpers";
 
 export const LeftSection = () => {
   const [data] = useState(
-    "Welcome to our eCommerce platform! Please log in to continue shopping and enjoy exclusive deals. Our platform offers a wide range of products, secure payment options, and fast delivery services to enhance your shopping experience."
-  );
+"MeroJhola is your one-stop e-commerce platform, bringing you a seamless and convenient shopping experience right at your fingertips.  Shop smart, shop with confidence – only at MeroJhola! "  );
   return (
     <div className="w-full md:w-1/2 bg-teal-900 text-white p-6 flex flex-col justify-center rounded-t-lg md:rounded-l-lg md:rounded-t-none">
       <img

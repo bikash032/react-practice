@@ -20,21 +20,12 @@ createRoot(document.getElementById("root")!).render(
 <>
 <StickyNavbar/>
 <LoginPage/>
-<LoginPage/>
-<LoginPage/>
-<LoginPage/>
-<LoginPage/>
-<LoginPage/>
-<LoginPage/>
-<LoginPage/>
-<LoginPage/>
-<LoginPage/>
-<LoginPage/>
-</>
+
 {/* <AppFooter/>cl */}
 {/* <App/> */}
 <MidFooter/>
 
   <MeroJholaFooter/>
+  </>
 </StrictMode>
 );
