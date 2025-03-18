@@ -54,6 +54,19 @@ export const RightSecton = ({ label }: LoginParams) => {
         
 
       </div>
+<<<<<<< HEAD
+      <div className="flex space-x-5 justify-center">
+        <div className="text-sm text-black  flex space-x-1 mt-3">
+          <p>Don't Have Account?</p>
+         <a href="#" className="text-teal-900 text-sm italic underline">  Sign Up Here!!!</a>
+        </div>
+        <hr className="mt-5 text-teal-900 "/>
+        
+        
+
+      </div>
+=======
+>>>>>>> Merojhola
       <hr className="my-4 text-teal-100 md-"/>
       <div className=" gap-2">
       <div>
@@ -61,9 +74,12 @@ export const RightSecton = ({ label }: LoginParams) => {
       
       </div>
       </div>
+<<<<<<< HEAD
+=======
       <div>
       </div>
     </form>
+>>>>>>> Merojhola
     </div>
   );
 };

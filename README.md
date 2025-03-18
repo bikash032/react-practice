@@ -357,11 +357,6 @@ imputs are
 # As we see the button in the html that is is just the button(HTML) elment that will trigger the event for the submit acton. As we need to pass the type that will perform the event, so when we make the html tag we need to pass our type that is similar to the name that we mentioned to backend such as submit reset, username, password, role and everything 
 2. second we need to collect the data from the users and how to collect
 
-
 # let's handle the form in react
    # 1. Firstly form will be not handled by the action in the react. So, for this we need to handle by it with the event listner. 
-
-   # 2. All the <input> html tag inside of the form that we must pass the <name="username">,<name="password"> as the basic of the data we need to send for the backend through API that must be stored in the backend / as the data that except by the API from form
-
-# Git problem detected for the mergin and pushing // this is just sammple
 
