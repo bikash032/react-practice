@@ -362,3 +362,50 @@ imputs are
    # 1. Firstly form will be not handled by the action in the react. So, for this we need to handle by it with the event listner. 
 
    # 2. All the <input> html tag inside of the form that we must pass the <name="username">,<name="password"> as the basic of the data we need to send for the backend through API that must be stored in the backend / as the data that except by the API from form
+
+There are two types of the event for the input in the form of the react 
+1. Keyboard event
+2. Mouse event
+
+For the form we usally use for the listener as the event and that event is called as the <onChange> event. This onChange event is used usally to controlled all the inputs. It is fired actually on each stroke of the press of the button/mouse.
+
+[onChange={(event)=>{}}]
+
+As onChange listener will take the object as the call back function that is called as the event. so when that fuction of the event will hold all of the function of the event as 
+1. First it hold all the information about that event and 
+--> Basically we can check that by the target and inside that target there is called data which we can see each stroke of the input 
+b
+bi
+bik
+bika
+bikas
+bikash
+bikash 
+bikash B
+bikash Bi
+Bikash Bis
+Bikash Bish
+Bikash Bisho
+
+As this will show us like this pattern on the each stork of the input
+
+Now this inputed data we need to store and that storing of the data is called as the state of the component
+
+so we can hold that data in the useState by making the componets:
+# usestate is made inside of the function before the return of the function.
+
+interface ICrediential{
+  email:string | null,
+  password:String| null
+}
+
+export const RightSecton = ({label}:LoginParams) => {
+
+  const [crediential, setCredential]=useState<ICrediential>({
+    email:null,
+    password:null,
+
+  })
+
+  Fist we make the return of the function where we write all of the code that we need to render for out websites and that inside we need to hold that user is inputing from outside, so to hold that data we use the useState and that useState insie what ever data is coming we need to define  so we make the <interface <data_type_Binding_output_for_typescript>>
+
