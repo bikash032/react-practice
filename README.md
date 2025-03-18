@@ -360,4 +360,3 @@ imputs are
 # let's handle the form in react
    # 1. Firstly form will be not handled by the action in the react. So, for this we need to handle by it with the event listner. 
 
-   # 2. All the <input> html tag inside of the form that we must pass the <name="username">,<name="password"> as the basic of the data we need to send for the backend through API that must be stored in the backend / as the data that except by the API from form
