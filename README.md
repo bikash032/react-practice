@@ -363,5 +363,5 @@ imputs are
 
    # 2. All the <input> html tag inside of the form that we must pass the <name="username">,<name="password"> as the basic of the data we need to send for the backend through API that must be stored in the backend / as the data that except by the API from form
 
-    
+# Git problem detected for the mergin and pushing // this is just sammple
 
